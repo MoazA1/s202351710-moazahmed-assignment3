@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+
+<body>
+
+    <header>
+        <div class="container nav">
+            <div class="logo">Professional Portfolio</div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+
+            <button id="themeToggle" class="theme-toggle" type="button" aria-label="Dark mode">
+                🌙
+            </button>
+        </div>
+    </header>
+
+    <section id="about" class="container about">
+        <div class="about-text">
+            <h1>Moaz Ahmed</h1>
+            <div class="about-image">
+                <img src="assets/images/portfolio.png" alt="Profile Image">
+            </div>
+            <p class="tagline">Frontend Web Developer | Software Requirements Engineer | Software Systems Designer</p>
+            <p>
+                I am a passionate developer who enjoys building clean and responsive websites.
+                I turn ideas into interactive digital experiences and continuously
+                improving my skills in web development. Furthermore, i have experience in gathering clients'
+                requirements and generating System high/low level designs.
+            </p>
+        </div>
+
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/prj1.png" alt="Amanah Project">
+                    </div>
+
+                    <div class="project-content">
+                        <h3>Amanah</h3>
+                        <p>
+                            A Lost and Found website designed to help university students
+                            retrieve lost items safely and efficiently within campus.
+                        </p>
+
+                        <a href="https://mtsat2005.wixstudio.com/amanah" target="_blank" class="project-btn">
+                            Visit Website
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/prj2.png" alt="Petrouly Champ Quiz">
+                    </div>
+
+                    <div class="project-content">
+                        <h3>Petrouly Champ Mental Quiz</h3>
+                        <p>
+                            An interactive quiz website developed for a sports club contest,
+                            featuring engaging mental challenge questions.
+                        </p>
+
+                        <a href="https://mtsat2005.wixstudio.com/petroulychamp" target="_blank" class="project-btn">
+                            Visit Website
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
