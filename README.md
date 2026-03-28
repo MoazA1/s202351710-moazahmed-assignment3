@@ -28,11 +28,17 @@ To run this project locally:
 
 ChatGPT was used to assist with:
 
-- Improving HTML structure
-- Implementing responsive design for cards and personal photo
 - Debugging issues and refining layout design
+- Helped in developing some js functions logically
 
 All AI-generated suggestions were reviewed, modified, and tested before added to the final project.
 
 
+## Second Version Updates
+- New responsive hamburher toggle menu is added to the mobile devices to enhance UI/UX
+- The website saves user activity in local storage (prefer dark/light mode). When the page is refreshed the mode stays the same.
+- Dynamic greeting based on local time
+- Personal project search bar 
+- Form submission error handling 
+- Overall improved UI/Scrolling/Effects
 

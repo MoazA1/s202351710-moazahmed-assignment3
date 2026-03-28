@@ -3,11 +3,10 @@
 ## Tools Used & Use Cases
 
 ### 1. ChatGPT
-I used ChatGPT primarily for problem-solving, debugging, and design improvements. It helped me:
-- Helped in structuring my HTML file.
-- Improve responsiveness for mobile devices for the About Section.
-- Enhance the design of project cards and layout styling.
-- Understand CSS concepts like `object-fit`, `flexbox`, `grid`, and media queries.
+I used ChatGPT primarily for ,developing some JS functions, debugging, and design improvements. It helped me:
+- Helped in enhancing the UI experience through  offering seamless CSS styles.
+- Improve responsiveness for mobile devices by ennhancing the hamburger menu.
+- Fixing some logic errors in the form error handler.
 
 ## Benefits & Challenges
 
@@ -15,23 +14,21 @@ I used ChatGPT primarily for problem-solving, debugging, and design improvements
 - Faster development process.
 - Better understanding of responsive design.
 - Improve UI/UX design ideas.
+- Faster debugging for logical errors
 
 ### Challenges
 - Some AI-generated CSS conflicted with existing styles.
-- Needed to adjust file paths and structure manually when AI assumed a different project setup.
 
 ## Learning Outcomes
 
 Through using AI tools, I learned:
-- The importance of organizing folders correctly (css/, js/, assets/).
 - How to improve UI design using hover effects, shadows, and transitions.
+- How to use localStorage to save user's data
 
 ## Responsible Use & Modifications
 
 I reviewed all AI-generated code carefully before adding it to my project. Specifically, I:
 
-- Teste each feature in the browser to ensure it worked correctly.
+- Tested each feature in the browser to ensure it worked correctly.
 - Modified styling to match my personal design preferences.
 - Simplified overly complex code when necessary.
-- Adjusted file paths and folder structures to fit my project setup.
-
