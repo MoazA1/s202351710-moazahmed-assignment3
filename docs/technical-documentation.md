@@ -32,4 +32,3 @@ The website is fully responsive and adapts to different screen sizes, ensuring a
 
 ---
 
-## Project Structure
