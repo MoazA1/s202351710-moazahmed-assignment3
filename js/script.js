@@ -11,6 +11,7 @@ const menuToggle = document.getElementById("menuToggle");
 const mobileNav = document.getElementById("mobileNav");
 const navLinks = document.querySelectorAll("#mobileNav a");
 
+
 const savedTheme = localStorage.getItem("theme");
 
 if (savedTheme === "dark") {
