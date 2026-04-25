@@ -366,3 +366,9 @@ if (prevQuoteBtn) {
 }
 
 loadQuotes();
+
+if (downloadCvBtn) {
+  downloadCvBtn.addEventListener("click", () => {
+    console.log("CV download started.");
+  });
+}

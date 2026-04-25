@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Moaz Ahmed | Portfolio</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
+
 <body>
   <header class="site-header">
     <div class="container nav">
       <div class="logo">Moaz Ahmed</div>
 
-      <button
-        id="menuToggle"
-        class="menu-toggle"
-        type="button"
-        aria-label="Open navigation menu"
-        aria-expanded="false"
-        aria-controls="mobileNav"
-      >
+      <button id="menuToggle" class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false"
+        aria-controls="mobileNav">
         <span></span>
         <span></span>
         <span></span>
@@ -53,6 +49,9 @@
         <div class="hero-actions">
           <a href="#projects" class="btn btn-primary">View Projects</a>
           <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          <a href="assets/files/Moaz-Ahmed-CV.pdf" download="Moaz-Ahmed-CV.pdf" class="btn btn-cv" id="downloadCvBtn">
+            Download CV
+          </a>
         </div>
 
         <p class="tagline">
@@ -115,12 +114,7 @@
         </div>
 
         <div class="projects-toolbar">
-          <input
-            type="text"
-            id="projectSearch"
-            placeholder="Search projects..."
-            aria-label="Search projects"
-          />
+          <input type="text" id="projectSearch" placeholder="Search projects..." aria-label="Search projects" />
 
           <select id="projectFilter" aria-label="Filter projects by category">
             <option value="all">All Categories</option>
@@ -149,28 +143,16 @@
                 A lost and found website designed to help university students retrieve lost
                 items safely and efficiently within campus.
               </p>
-              <a
-                href="https://mtsat2005.wixstudio.com/amanah"
-                target="_blank"
-                class="project-btn"
-                rel="noopener noreferrer"
-              >
+              <a href="https://mtsat2005.wixstudio.com/amanah" target="_blank" class="project-btn"
+                rel="noopener noreferrer">
                 Visit Website
               </a>
             </div>
           </article>
 
-          <article
-            class="project-card reveal"
-            data-title="Petrouly Champ Mental Quiz"
-            data-category="interactive quiz"
-          >
+          <article class="project-card reveal" data-title="Petrouly Champ Mental Quiz" data-category="interactive quiz">
             <div class="project-image">
-              <img
-                src="assets/images/prj2.png"
-                alt="Petrouly Champ Mental Quiz"
-                loading="lazy"
-              />
+              <img src="assets/images/prj2.png" alt="Petrouly Champ Mental Quiz" loading="lazy" />
             </div>
             <div class="project-content">
               <span class="project-tag">Interactive Quiz</span>
@@ -179,12 +161,8 @@
                 An interactive quiz website developed for a sports club contest,
                 featuring engaging mental challenge questions.
               </p>
-              <a
-                href="https://mtsat2005.wixstudio.com/petroulychamp"
-                target="_blank"
-                class="project-btn"
-                rel="noopener noreferrer"
-              >
+              <a href="https://mtsat2005.wixstudio.com/petroulychamp" target="_blank" class="project-btn"
+                rel="noopener noreferrer">
                 Visit Website
               </a>
             </div>
@@ -226,4 +204,5 @@
 
   <script src="js/script.js"></script>
 </body>
+
 </html>

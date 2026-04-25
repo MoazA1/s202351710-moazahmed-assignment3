@@ -839,3 +839,23 @@ footer {
     font-size: 1.7rem;
   }
 }
+
+.btn-cv {
+  background: #16a34a;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 10px 24px rgba(22, 163, 74, 0.25);
+}
+
+.btn-cv:hover {
+  background: #15803d;
+}
+
+body.dark .btn-cv {
+  background: #22c55e;
+  color: #020617;
+}
+
+body.dark .btn-cv:hover {
+  background: #4ade80;
+}
