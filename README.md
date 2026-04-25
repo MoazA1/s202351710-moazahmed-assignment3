@@ -2,11 +2,9 @@
 
 ## Project Overview
 
-This project is a fully responsive, production-ready portfolio web application built using **HTML, CSS, and JavaScript**.
+This project is a fully responsive portfolio web application built using **HTML, CSS, and JavaScript**.
 
 It demonstrates modern frontend development practices including interactive UI components, state management, API integration, performance optimization, and responsive design.
-
-The goal is to deliver a polished, real-world web application suitable for professional presentation.
 
 ---
 
@@ -22,15 +20,15 @@ The goal is to deliver a polished, real-world web application suitable for profe
 
 ## Live Demo
 
-[Add your deployed link here]
+(https://moaza1.github.io/s202351710-moazahmed-assignment4/)
 
 ---
 
 ## Technologies Used
 
-- HTML5 – Semantic structure  
-- CSS3 – Responsive design, animations, variables  
-- JavaScript (ES6) – Interactivity and logic  
+- HTML – Semantic structure  
+- CSS – Responsive design, animations, variables  
+- JavaScript – Interactivity and logic  
 - DummyJSON API – External data integration  
 - Git and GitHub – Version control and deployment  
 
@@ -42,7 +40,7 @@ The goal is to deliver a polished, real-world web application suitable for profe
 
 - About Me – Introduction and dynamic greeting  
 - Projects – Interactive project showcase  
-- Quotes – API-powered dynamic content  
+- Quotes – API dynamic content  
 - Contact – Form with validation and feedback  
 
 ---
@@ -64,13 +62,12 @@ The goal is to deliver a polished, real-world web application suitable for profe
 - Tracks how long the user stays on the page in real time  
 
 #### Download CV Feature
-- Allows users to download a PDF CV  
-- Accessible from the hero section  
+- Allows users to download a PDF CV   
 - Enhances professional presentation  
 
 ---
 
-### Projects Section (Advanced Logic)
+### Projects Section
 
 - Search projects by title or category  
 - Filter projects by category  
@@ -96,7 +93,7 @@ The goal is to deliver a polished, real-world web application suitable for profe
 - Enforces minimum message length  
 - Displays error, loading, and success messages  
 
-Note: This is a frontend-only demo form and does not send real messages.
+Please note that this is a frontend only demo form and does not send real messages.
 
 ---
 
@@ -167,17 +164,5 @@ The final implementation was reviewed, modified, and integrated manually.
 
 ---
 
-## Future Improvements
-
-- Backend integration for real contact form  
-- Dynamic project loading from a database  
-- Advanced animations and transitions  
-- Additional sections such as blog or skills  
-
----
-
-## Conclusion
-
-This project successfully demonstrates the ability to build a professional-quality web application using modern frontend technologies. It meets assignment requirements and reflects best practices in design, functionality, and user experience.
 
 
